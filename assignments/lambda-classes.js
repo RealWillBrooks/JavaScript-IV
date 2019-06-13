@@ -21,3 +21,10 @@ class Instructors extends Person {
         this.catchPhrase = attributes.catchPhrase;
     }
 }
+
+class Students extends Person {
+    constructor(attributes) {
+        super(attributes);
+        
+    }
+}
